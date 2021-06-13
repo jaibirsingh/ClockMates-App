@@ -1,0 +1,21 @@
+//   (
+//   <div>
+//       <div className = 'calendarBody'>
+//           <h2> Select a Date </h2>
+//           <Calendar onChange = {onChange} value = {calDate} />
+//       </div>
+//
+//       <div className = 'bookingInfoSection'>
+//         {bookingInfo.map(room =>{
+//           return(
+//              <p> {room.date} </p>
+//           )
+//         })}
+//       </div>
+//
+//
+//
+//
+//
+//   </div>
+// )

@@ -1,0 +1,8 @@
+// Date selection calendar styling
+
+.calendarBody{
+  margin: 30px 100px 10px 300px;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+}

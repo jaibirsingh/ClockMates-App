@@ -1,0 +1,59 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar {
+  background-color: #021E39;
+  width: 100%;
+  height: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.Navbar .leftSide {
+  flex: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center
+}
+
+.Navbar .leftSide .navLinks {
+  max-height: 80px;
+}
+
+.Navbar .leftSide .navLinks a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 25px;
+}
+
+.Navbar .rightSide {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 25px;
+}
+.Navbar .rightSide input{
+  height:35%;
+  width: 45%;
+  font-size: 15px;
+  padding-left: 15px;
+  border-radius: 16px;
+  border: none;
+}
+
+.Navbar .rightSide button{
+  width: 20%;
+  height: 40%;
+  border-radius: 10px;
+  border: none;
+
+}

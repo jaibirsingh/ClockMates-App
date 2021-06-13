@@ -1,0 +1,16 @@
+// Meeting room tabs styling
+
+.viewRoomBooking {
+  height: 500px;
+}
+
+.rooms {
+  padding: 2% 30%;
+}
+
+.rooms button{
+  margin: 15px;
+  font-size: large;
+  border-radius: 10px;
+  cursor: pointer;
+}
